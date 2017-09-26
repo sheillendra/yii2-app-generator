@@ -1,0 +1,20 @@
+{
+    "name": "sheillendra/yii2-app-generator",
+    "description": "Yii2 Application generator for GII",
+    "keywords": ["gii", "sheillendra", "yii2", "yii"],
+    "type": "yii2-extension",
+    "authors": [
+        {
+            "name": "Sheillendra",
+            "email": "suryana869@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2-gii": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "sheillendra\\appGenerator\\": ""
+        }
+    }
+}
